@@ -980,4 +980,4 @@ client.on("message", function(message) {
 
 })
 
-client.login('ODMwNjM2NjkwNDcyNTY2Nzg0.YHJksw.bxUCgpRx7DStVjh4ji9eJd0mRl8')
+client.login('TOKEN')
