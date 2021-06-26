@@ -954,7 +954,7 @@ client.on("message", function (message) {
 							p2.pos = cards.nomes.indexOf(p2.nome)
 							temp = cards.numeros[p2.pos]
 
-							if (p1.numeros[1] > temp[3]) {
+						 if (p1.numeros[1] > temp[3]) {
 								//muda a coloração do 2:3 para blue
 								loadImage('./imagens/' + p2.nome + 'pink.jpg').then((imagens) => {
 									ctx.drawImage(imagens, 530, 285, 220, 220)
