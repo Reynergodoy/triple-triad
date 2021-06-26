@@ -976,7 +976,7 @@ client.on("message", function (message) {
 					break
 				default:
 					message.channel.send('Coordenada inválida')
-					break
+					break;
 			}
 		}
 		
